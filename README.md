@@ -15,7 +15,7 @@ This is a polyfill for early versions.
 
 ```js
 
-// In Node >=1 the built-in `process.nextTick()` method is exposed, 
+// In Node >=1 the built-in `nextTick()` method is exposed, 
 // so this is just a re-assignment that has no effect.
 process.nextTick = require('process.nexttick')
 
