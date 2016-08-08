@@ -3,6 +3,8 @@
 var test        = require('tap'),
     nextTickSys = process.nextTick
 
+test.plan(13)
+
 function requireUncached(module) {
     delete require.cache[ require.resolve(module) ]
     return require(module)
