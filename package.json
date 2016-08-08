@@ -1,0 +1,37 @@
+{
+  "name": "process.nexttick",
+  "version": "1.0.0",
+  "description": "nextTick polyfill for early Node versions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js",
+    "coverage": "npm test -- --cov --coverage-report=lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarzkopfb/process.nextTick.git"
+  },
+  "keywords": [
+    "process",
+    "next",
+    "tick",
+    "nextTick",
+    "event",
+    "loop",
+    "arguments",
+    "args",
+    "polyfill",
+    "early",
+    "older",
+    "versions"
+  ],
+  "author": "Schwarzkopf Balazs <schwarzkopfb@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schwarzkopfb/process.nextTick/issues"
+  },
+  "homepage": "https://github.com/schwarzkopfb/process.nextTick#readme",
+  "devDependencies": {
+    "tap": "^6.3.0"
+  }
+}
